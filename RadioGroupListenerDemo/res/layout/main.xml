@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Group Listener Demo"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <RadioGroup android:id="@+id/rg1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioButton android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#336600"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        <RadioButton android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FeMale"
+            android:textColor="#336600"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        
+        
+        
+        
+        
+    </RadioGroup>
+
+</LinearLayout>

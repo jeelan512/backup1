@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reading The Data By using Dom Parser"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <Button android:id="@+id/read"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Employee Data"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+    
+    <TextView android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

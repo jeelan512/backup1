@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/context1"
+	    android:title="Context1"
+	    android:icon="@drawable/ic_launcher"/>
+	
+	
+	<item android:id="@+id/context2"
+	    android:title="Context2"
+	    android:icon="@drawable/ic_launcher"/>
+	
+	<item android:id="@+id/context3"
+	    android:title="Context3"
+	    android:icon="@drawable/ic_launcher"/>
+	
+	<item android:id="@+id/context4"
+	    android:title="Context4"
+	    android:icon="@drawable/ic_launcher"/>
+	
+	<item android:id="@+id/context5"
+	    android:title="Context5"
+	    android:icon="@drawable/ic_launcher"/>
+	
+	<item android:id="@+id/context6"
+	    android:title="Context6"
+	    android:icon="@drawable/ic_launcher"/>
+    
+
+</menu>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Append The Data To Dom Parser"
+        android:textColor="#336600"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <TableRow android:id="@+id/tr1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        
+        <TextView android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Emp No:"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        <EditText android:id="@+id/empno"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+    </TableRow>
+    
+        
+        
+        <TableRow android:id="@+id/tr2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        
+        <TextView android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Emp Name:"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        <EditText android:id="@+id/ename"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+    </TableRow>
+    
+            
+     <TableRow android:id="@+id/tr3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        
+        <TextView android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Emp Sal:"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        <EditText android:id="@+id/esal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+    </TableRow>
+    
+         
+         <TableRow android:id="@+id/tr4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        
+        <TextView android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Dept No:"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        <EditText android:id="@+id/deptno"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+    </TableRow>
+    
+             
+    <TableRow android:id="@+id/tr5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        
+    <Button android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:text="Submit"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"/>             
+    
+    <Button android:id="@+id/cancel"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:text="Cancel"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"/>             
+    
+                 
+    </TableRow>
+
+</LinearLayout>

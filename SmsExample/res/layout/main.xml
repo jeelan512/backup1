@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send The Sms"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <TableRow android:id="@+id/tr1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        
+        <TextView android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Ph No:"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"/>
+        
+        <EditText android:id="@+id/phno"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000EE"
+            android:textSize="20dp"/>
+        
+        
+    </TableRow>
+    
+        
+        
+        <TableRow android:id="@+id/tr2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        
+        <TextView android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Message:"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"/>
+        
+        <EditText android:id="@+id/message"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000EE"
+            android:textSize="20dp"/>
+        
+        
+    </TableRow>
+    
+            
+            
+            <Button android:id="@+id/send"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="SEND"
+                android:textColor="#0000EE"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"/>
+        
+
+</LinearLayout>

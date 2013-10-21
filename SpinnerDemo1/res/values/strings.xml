@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Select Item In Spinner</string>
+    <string name="app_name">SpinnerDemo1</string>
+    <string-array name="values">
+        <item >Spinner1</item>
+        <item >Spinner2</item>
+        <item >Spinner3</item>
+        <item >Spinner4</item>
+        <item >Spinner5</item>
+        <item >Spinner6</item>
+        <item >Spinner7</item>
+        <item >Spinner8</item>
+        <item >Spinner9</item>
+        <item >Spinner10</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Maps Demo"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+	<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0CeHaEfdPbIOGxJ3_1QDatoDUolyxJQp8puZNyw"
+                 android:id="@+id/myMap"
+                 android:clickable="true"
+                 />
+
+
+</LinearLayout>

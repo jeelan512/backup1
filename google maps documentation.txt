@@ -1,0 +1,84 @@
+GoogleMaps:
+
+step1:
+	copy the debug.keystore file to the bin folder of the jdk
+
+step2: 
+	go to the bin directory location of the jdk on the command prompt and type the following command
+
+keytool -v -list -alias androiddebugkey -keystore debug.keystore -storepass android -keypass android
+
+remember the md5 finger print certificate
+
+step3:
+	Visit the following link
+
+	http://code.google.com/android/add-ons/google-apis/mapkey.html
+			(or)
+	https://developers.google.com/android/maps-api-signup
+
+
+<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0CeHaEfdPbIOerxLl2kst0OVosjTRTy1HkNOVZQ"
+                 />
+
+
+code:
+
+package com.google;
+
+import android.os.Bundle;
+import com.google.android.maps.GeoPoint;
+import com.google.android.maps.MapActivity;
+import com.google.android.maps.MapView;
+
+public class GoogleActivity extends MapActivity {
+    /** Called when the activity is first created. */
+    
+	
+	@Override
+    protected boolean isRouteDisplayed() {
+        return false;
+    }
+	
+	
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        MapView mapView = (MapView) findViewById(R.id.mapview);
+        mapView.setBuiltInZoomControls(true);
+        GeoPoint p=new GeoPoint(1000000, 1000000);
+        mapView.setSatellite(true);
+        mapView.getController().setCenter(p);
+        mapView.getController().setZoom(14);
+        
+    }
+    
+    
+}
+
+
+main.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:apiKey="0CeHaEfdPbIOerxLl2kst0OVosjTRTy1HkNOVZQ"/>
+
+
+
+
+
+satish laptop key
+ <com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0CeHaEfdPbIPO2AWklaZ4VZoT_J8I0aJwpxp4Tg"
+                 />

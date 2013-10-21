@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Box Listener Demo"
+        android:textColor="#336600"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <CheckBox android:id="@+id/check"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SSC"
+        android:textColor="#aa0000"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

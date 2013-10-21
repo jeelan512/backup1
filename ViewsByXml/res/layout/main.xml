@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:P.SambasivaRao\n Phone:9849098490\n Web:www.durgajobs.com \n email:dss@gmail.com"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:autoLink="all" />
+     -->
+    <EditText android:id="@+id/edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:singleLine="true"/>
+    
+    <Button android:id="@+id/bt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:clickable="false"/>
+    
+    <ImageButton android:id="@+id/ib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:clickable="false"/>
+    
+    <ImageView android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"/>
+    
+    <ToggleButton android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Encrypted"
+        android:textOff="Decrypted"
+        android:checked="true"/>
+    
+    <CheckBox android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SSC"
+        android:textColor="#aa0000"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:checked="true"/>
+    
+    <RadioGroup android:id="@+id/rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioButton android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        <RadioButton android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FeMale"
+            android:textColor="#aa0000"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        
+    </RadioGroup>
+
+        
+        
+        <RatingBar android:id="@+id/rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="2"
+            android:stepSize="1"/>
+</LinearLayout>

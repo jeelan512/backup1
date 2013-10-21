@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+	<Button android:id="@+id/bt1"
+	    android:layout_width="110dp"
+	    android:layout_height="wrap_content"
+	    android:text="Button1"
+	    android:textColor="#aa0000"
+	    android:gravity="center"
+	    android:textSize="20dp"
+	    android:textStyle="bold"
+	    android:layout_x="20dp"
+	    android:layout_y="30dp"/>
+	
+</AbsoluteLayout>

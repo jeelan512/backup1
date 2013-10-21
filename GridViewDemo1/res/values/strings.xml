@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GridViewDemo1!</string>
+    <string name="app_name">GridViewDemo1</string>
+    <string name="grid">Grid View Demo</string>
+    <color name="maroon">#900900</color>
+
+</resources>

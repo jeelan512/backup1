@@ -1,0 +1,92 @@
+Implicit Intents
+//opening the browser
+
+Intent in=new Intent(Intent.ACTION_VIEW, 
+Uri.parse("http://www.google.co.in"));
+startActivity(in);
+
+
+
+
+
+//making the phone call
+
+AndroidManifest.xml
+<uses-permission android:name="android.permission.CALL_PHONE">
+</uses-permission>
+
+
+Java file
+Intent in=new Intent(Intent.ACTION_CALL, Uri.parse("tel:8096969696"));
+startActivity(in);
+
+
+
+
+
+
+
+//View Contacts:
+Java file:
+Intent contacts = new Intent();
+contacts.setAction(android.content.Intent.ACTION_VIEW);
+contacts.setData(ContactsContract.Contacts.CONTENT_URI);
+startActivity(contacts);
+
+
+
+
+
+
+
+
+
+
+
+//using the camera
+Androidmanifest.xml:
+<uses-permission android:name="android.permission.CAMERA" > 
+</uses-permission>
+
+Java file
+Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+startActivity(intent);
+
+
+
+
+
+//opening the dial pad
+Intent intent = new Intent(Intent.ACTION_DIAL,
+Uri.parse("tel:(+49)12345789"));
+startActivity(intent);
+
+
+
+
+
+
+//search  in the google:
+Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);  
+intent.putExtra(SearchManager.QUERY, "Android");  
+startActivity(intent); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//get the Wikipedia of some words
+Intent intent = new Intent(Intent.ACTION_VIEW,
+Uri.parse("http://en.wikipedia.org/wiki/"+"Android"));  
+startActivity(intent); 
+

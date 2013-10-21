@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Explicit Intents Demo"
+        android:textColor="#aa0000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <TextView android:id="@+id/f"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This Is Second Screen"
+        android:textColor="#0000EE"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+    
+    
+    <Button android:id="@+id/third"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Third"
+        android:textColor="#0000EE"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

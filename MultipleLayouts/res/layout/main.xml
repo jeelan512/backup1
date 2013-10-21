@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout1.xml File Data"
+        android:textColor="#900900"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    
+    <include android:id="@+id/m1" layout="@layout/layout1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout2.xml File Data"
+        android:textColor="#900900"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+    <include android:id="@+id/m2" layout="@layout/layout2"/>
+
+</LinearLayout>
